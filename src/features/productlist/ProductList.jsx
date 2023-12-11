@@ -186,8 +186,8 @@ const ProductList = () => {
                   >
                     BUY NOW
                   </button>
-                  <h3 className="font-bold">{product.title}</h3>
-                  <h4>{product.category}</h4>
+                  <h2 className="font-bold">{product.title}</h2>
+                  <p>{product.category}</p>
 
                   <div className="flex items-center">
                     <svg
